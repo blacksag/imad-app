@@ -21,6 +21,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+var names = [];
 app.get('/submit-name', function (req, res) {
   var name = req.query.name;
   
