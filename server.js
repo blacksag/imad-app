@@ -26,7 +26,7 @@ app.get('/submit-name', function (req, res) {
   
   names.push(name);
   //Java Script Objest Notation
-  req.send(JSON.stringfy(names));
+  res.send(JSON.stringfy(names));
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
