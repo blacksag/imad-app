@@ -25,5 +25,5 @@ submit.onclick = function() {
     var name = nameInput.value;
     // make request
     request.open('GET','http://sudhanshujain982.imad.hasura-app.io/submit-name?name=' + name, true);
-    request.send(null)
+    request.send(null);
 };
